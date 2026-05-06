@@ -1,0 +1,15 @@
+
+# Playwright
+node_modules/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Auth session state — contains cookies/localStorage, do not commit
+auth.json
+
+# Test run artifacts (screenshots, videos, traces, JSON results)
+/test-results/
+
+# Generated HTML reports — open via `npm run report:latest`
+/playwright-report/

@@ -1,0 +1,26 @@
+{
+  "name": "end-to-end-agentic-ai-qa-workflow",
+  "version": "1.0.0",
+  "description": "Agentic AI QA Workflow — SauceDemo E2E Tests (Playwright)",
+  "main": "index.js",
+  "scripts": {
+    "test"                   : "playwright test",
+    "test:headed"            : "playwright test --headed",
+    "test:chrome"            : "playwright test --project='Google Chrome'",
+    "test:firefox"           : "playwright test --project=firefox",
+    "test:edge"              : "playwright test --project='Microsoft Edge'",
+    "test:checkout"          : "playwright test tests/saucedemo-checkout/",
+    "test:login"             : "playwright test tests/login/",
+    "test:debug"             : "playwright test --debug",
+    "report:latest"          : "node scripts/show-latest-report.js",
+    "report:dashboard"       : "node scripts/generate-dashboard.js",
+    "report:open"            : "npm run report:latest && npm run report:dashboard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
