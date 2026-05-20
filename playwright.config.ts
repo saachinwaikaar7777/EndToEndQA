@@ -35,6 +35,17 @@ export default defineConfig({
   reporter: [
     ['html', { outputFolder: `playwright-report/${RUN_DATETIME}`, open: 'never' }],
     ['json', { outputFile: `test-results/${RUN_ID}/results.json` }],
+    ['allure-playwright', {
+      resultsDir: 'allure-results',
+      detail: true,
+      suiteTitle: true,
+      environmentInfo: {
+        os_platform: process.platform,
+        node_version: process.version,
+        run_id: RUN_ID,
+        run_date: RUN_DATE,
+      },
+    }],
     ['list'],
   ],
 

@@ -13,3 +13,7 @@ auth.json
 
 # Generated HTML reports — open via `npm run report:latest`
 /playwright-report/
+
+# Allure reports
+allure-report/
+allure-results/
