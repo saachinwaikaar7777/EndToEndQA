@@ -1,6 +1,9 @@
 # End-to-End Agentic AI QA Workflow
 
-This repository contains an automated Quality Assurance (QA) workflow powered by Playwright and integrated with Agentic AI capabilities for intelligent test generation and execution. It focuses on End-to-End (E2E) testing, specifically designed for testing platforms like SauceDemo.
+## 📖 About
+This repository contains a state-of-the-art, automated Quality Assurance (QA) workflow powered by Playwright and integrated with Agentic AI capabilities. It is designed to demonstrate an intelligent test generation, execution, and reporting pipeline for End-to-End (E2E) testing. 
+
+Currently, the test suite focuses on automating workflows for e-commerce platforms (like SauceDemo), featuring robust validations, multi-browser configurations, and a 7-step autonomous AI-driven QA process.
 
 ## 🚀 Features
 - **Cross-Browser Testing:** Run tests seamlessly on Chrome, Firefox, and Edge.
